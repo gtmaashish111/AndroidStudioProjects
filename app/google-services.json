@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "865648825828",
+    "firebase_url": "https://shopmobile-69b67.firebaseio.com",
+    "project_id": "shopmobile-69b67",
+    "storage_bucket": "shopmobile-69b67.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:865648825828:android:b6af8f8455110f3c",
+        "android_client_info": {
+          "package_name": "com.example.aashish.shopmobile"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "865648825828-cgu485t58c3p5ds2gmu5pfhe0e1hijo7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB6XlLxfczRO1W82_ZrHSCR9PqwUJLknl0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "865648825828-cgu485t58c3p5ds2gmu5pfhe0e1hijo7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

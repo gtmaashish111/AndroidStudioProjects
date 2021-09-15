@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="#e5fff7"
+tools:layout_editor_absoluteY="81dp">
+tools:context=".Activities.CartActivity">
+
+    <TextView
+        android:id="@+id/txtProductPrice"
+        android:layout_width="71dp"
+        android:layout_height="40dp"
+
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.57"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtProductDescription"
+        tools:text="$45" />
+
+    <TextView
+        android:id="@+id/txtProductName"
+        android:layout_width="308dp"
+        android:layout_height="33dp"
+
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:gravity="center"
+        android:textColor="#0015ff"
+        android:textSize="15dp"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Sleek and Simple Glasses" />
+
+    <Button
+        android:id="@+id/btnEdit"
+        android:layout_width="84dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="84dp"
+
+        android:layout_marginLeft="84dp"
+        android:layout_marginTop="8dp"
+        android:text="Edit"
+        android:textSize="15dp"
+        app:layout_constraintStart_toEndOf="@+id/btnAddCart"
+        app:layout_constraintTop_toBottomOf="@+id/txtProductPrice" />
+
+    <Button
+        android:id="@+id/btnAddCart"
+        android:layout_width="109dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="8dp"
+        android:text="Add to Cart"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtProductPrice"
+        tools:text="Add to Cart" />
+
+    <TextView
+        android:id="@+id/txtProductDescription"
+        android:layout_width="322dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="8dp"
+
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:gravity="center"
+        android:textSize="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.09"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView10"
+        tools:text="These glasses are sharp, sleek, and simple. Not to mention; highly affordable as well!" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="309dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/sky"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtProductName" />
+
+
+</android.support.constraint.ConstraintLayout>
